@@ -39,7 +39,7 @@ const App = React.createClass({
     strCity = strCity.replace(" ", "_");
     this.setState({city: strCity, stateCountry: strState});
 
-    ajax("http://api.wunderground.com/api/2ca5db5b449f0cb2/conditions/q/" + strState + "/" + strCity + ".json")
+      ajax("http://api.wunderground.com/api/2ca5db5b449f0cb2/conditions/q/" + strState + "/" + strCity + ".json")
       .done(weather => {
         this.setState({ weather: weather });
       })

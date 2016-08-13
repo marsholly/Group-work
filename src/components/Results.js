@@ -29,6 +29,7 @@ const Results = React.createClass({
       let style = this.props.style;
 
       let strUrl = "./pic/";
+
       if (gender === "male") {
         strUrl += "male/";
       } else {
@@ -60,6 +61,7 @@ const Results = React.createClass({
       }
 
       strUrl += "1.jpg";
+
       console.log(strUrl);
 
       return (

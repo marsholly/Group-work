@@ -22,7 +22,7 @@ const Weather = React.createClass({
     } else {
       return (
         <div className="weather-condition">
-          <h1>Enter City</h1>
+          <h2>Please enter City</h2>
         </div>
       )
     }
