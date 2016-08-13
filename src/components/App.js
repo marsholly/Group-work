@@ -58,7 +58,7 @@ const App = React.createClass({
           <div className="row">
             <div className="jumbotron">
               <input type="text" onChange={this.onInputChange}/>
-              <button onClick={this.enterCity}>Submit</button>
+              <button className="btn btn-primary" onClick={this.enterCity}>Submit</button>
             </div>
           </div>
         </div>
