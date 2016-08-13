@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+}
+
+.left {
+  background-color: lightgray;
+}
+
+.right {
+  background-color: white;
+}
+
+.weather {
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.filters {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.results {
+  background-color: lightgray;
+}
+
+.weather-condition {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.weather-icon {
+  width: 50%;
+}
+
+#imgClothes {
+  height: 400px;
+}
