@@ -69,7 +69,7 @@ const Results = React.createClass({
       )
     } else {
       return (
-        <img id="imgClothes" src="http://www.rgbstock.com/cache1nYGZh/users/w/we/weirdvis/300/mmKVlKY.jpg" />
+        <img id="imgClothes" src="./pic/silhouette.jpg" />
       )
     }
     }

@@ -1,7 +1,13 @@
+body{
+  background-color: lightblue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 
+}
 
 .jumbotron {
-  background-color: lightblue;
+  background-image: url(/pic/banner.png);
+  background-size: 100% 100%;
+  min-height: 260px;
 }
 
 .container {
@@ -9,28 +15,41 @@
 }
 
 .left {
-  background-color: white;
+  background-image: url(/pic/left.png);
+  background-size: 100% 100%;
+  min-height: 650px;
 }
 
 .right {
-  background-color: white;
+  background-color: #2f2922;
+  min-height: 650px;
 }
 
 .weather {
-  background-color: #fff9a7;
+  margin-top: 40px;
+  background:rgba(255, 255, 255, 0.6)!important;
+  padding-top: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
+  color: black;
 }
 
 .filters {
+  background:rgba(173, 216, 230, 0.8)!important;
   padding: 10px 10px 10px 10px;
   background-color: lightblue;
   border-radius: 10px;
+  font-family: "Arial Black", Gadget, sans-serif;
 }
 
 .results {
-  background-color: #fff9a7;
+  background-image: url(/pic/center.jpg);
+  margin-left: -10px;
+  margin-top: 10px;
+  background-size: 100% 100%;
+  background-color: #f1fed9;
   border-radius: 10px;
+  min-height: 625px;
 }
 
 .weather-condition {
@@ -44,4 +63,26 @@
 
 #imgClothes {
   height: 400px;
+}
+
+button{
+  margin-left: 10px;
+}
+
+input{
+  background:transparent;border: 2px solid gray;
+  border-radius: 30px;
+  width: 200px;
+  min-height: 36px;
+  padding-left: 10px;
+}
+
+.bottom{
+  margin-top: -25px;
+}
+
+.picresult{
+  position: absolute;
+  left:20%;
+  top:20%;   
 }

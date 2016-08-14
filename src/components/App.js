@@ -55,7 +55,7 @@ const App = React.createClass({
       <div>
         <div className="container">
           <h1>Weather Outfit of the Day</h1>
-          <div className="row">
+          <div className="row top">
             <div className="jumbotron">
               <input type="text" onChange={this.onInputChange}/>
               <button className="btn btn-primary" onClick={this.enterCity}>Submit</button>
@@ -63,7 +63,7 @@ const App = React.createClass({
           </div>
         </div>
         <div className="container">
-          <div className="row">
+          <div className="row bottom" >
             <div className="col-md-3 left">
               <div className="weather">
                 <Weather city={this.state.city} stateCountry={this.state.stateCountry} weather={this.state.weather}/>
@@ -74,7 +74,9 @@ const App = React.createClass({
             </div>
             <div className="col-md-9 right">
               <div className="results">
-                <Results gender={this.state.gender} style={this.state.style} weather={this.state.weather}/>
+                 <div className="picresult">
+                   <Results gender={this.state.gender} style={this.state.style} weather={this.state.weather}/>
+                 </div>
               </div>
             </div>
           </div>
